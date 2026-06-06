@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - First Words</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #7A5F3F 0%, #8B6F47 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #6B4E3D 0%, #5C3F2E 100%);
+            color: #E8D5B7;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .back-link {
+            display: inline-block;
+            color: #E8D5B7;
+            text-decoration: none;
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: 2px solid #E8D5B7;
+            border-radius: 6px;
+            transition: background 0.3s;
+        }
+        
+        .back-link:hover {
+            background: rgba(232, 213, 183, 0.2);
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .language-selector {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #E8D5B7;
+        }
+        
+        .language-selector button {
+            background: #6B4E3D;
+            color: #E8D5B7;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background 0.3s;
+        }
+        
+        .language-selector button:hover {
+            background: #5C3F2E;
+        }
+        
+        .language-selector button.active {
+            background: #5C3F2E;
+            font-weight: bold;
+        }
+        
+        .policy-section {
+            display: none;
+        }
+        
+        .policy-section.active {
+            display: block;
+        }
+        
+        .policy-section h2 {
+            color: #6B4E3D;
+            font-size: 2em;
+            margin: 30px 0 20px 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #E8D5B7;
+        }
+        
+        .policy-section h3 {
+            color: #6B4E3D;
+            font-size: 1.5em;
+            margin: 25px 0 15px 0;
+        }
+        
+        .policy-section h4 {
+            color: #5C3F2E;
+            font-size: 1.2em;
+            margin: 20px 0 10px 0;
+        }
+        
+        .policy-section p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        .policy-section ul {
+            margin: 15px 0 15px 30px;
+        }
+        
+        .policy-section li {
+            margin-bottom: 10px;
+        }
+        
+        .policy-section strong {
+            color: #6B4E3D;
+        }
+        
+        .highlight {
+            background: #f8f8f8;
+            padding: 15px;
+            border-left: 4px solid #6B4E3D;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        footer {
+            background: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .language-selector button {
+                display: block;
+                width: 100%;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy</h1>
+            <p>First Words App</p>
+            <a href="index.html" class="back-link">← Back to Home</a>
+        </header>
+        
+        <div class="content">
+            <div class="language-selector">
+                <button onclick="showLanguage('en')" class="active" id="btn-en">English</button>
+                <button onclick="showLanguage('sv')" id="btn-sv">Svenska</button>
+            </div>
+            
+            <!-- English Version -->
+            <div id="policy-en" class="policy-section active">
+                <h2>Privacy Policy for First Words App</h2>
+                <p><strong>Last Updated:</strong> 2026-01-30</p>
+                
+                <h3>1. Introduction</h3>
+                <p>First Words is a flash card app for children that helps learn words through images, text, and sounds. This privacy policy describes how we handle your personal information and what permissions the app uses.</p>
+                
+                <h3>2. Data Collection and Storage</h3>
+                <div class="highlight">
+                    <p><strong>Important:</strong> All data is stored locally on your device. We do not collect, share, or transmit any information to external servers.</p>
+                </div>
+                <ul>
+                    <li><strong>Images:</strong> Images you add to the app are stored only on your device in the app's private folder.</li>
+                    <li><strong>Audio Files:</strong> Audio files you add are stored only on your device in the app's private folder.</li>
+                    <li><strong>Card Data:</strong> All information about your flash cards (text, image references, audio references) is stored locally on your device.</li>
+                </ul>
+                
+                <h3>3. Permissions and Usage</h3>
+                <p>The app requests the following permissions:</p>
+                <ul>
+                    <li><strong>Camera (CAMERA):</strong> Used to take photos directly in the app to create new flash cards. Images are captured and saved locally on your device.</li>
+                    <li><strong>Read Media Images (READ_MEDIA_IMAGES):</strong> Used to select images from your device's gallery.</li>
+                    <li><strong>Read Media Audio (READ_MEDIA_AUDIO):</strong> Used to select audio files from your device.</li>
+                    <li><strong>Record Audio (RECORD_AUDIO):</strong> Used to record audio directly in the app to create new flash cards.</li>
+                    <li><strong>Internet (INTERNET):</strong> Used only for development purposes and is not necessary for the app's normal functions.</li>
+                </ul>
+                <div class="highlight">
+                    <p><strong>None of these permissions are used to collect, monitor, or transmit data to third parties.</strong></p>
+                </div>
+                
+                <h3>4. Third-Party Services</h3>
+                <p>The app does not use any third-party services for analytics, advertising, or data collection. All functionality runs locally on your device.</p>
+                
+                <h3>5. Children's Privacy</h3>
+                <p>The app is designed for children and their parents. All data remains on the device and is not collected. We recommend that parents monitor their children's use of the app.</p>
+                
+                <h3>6. Your Rights</h3>
+                <p>Since all data is stored locally on your device, you have full control over your information. You can at any time:</p>
+                <ul>
+                    <li>Uninstall the app to delete all data</li>
+                    <li>Delete individual cards within the app</li>
+                    <li>Restrict the app's permissions via your device settings</li>
+                </ul>
+                
+                <h3>7. Changes to This Policy</h3>
+                <p>We may update this privacy policy from time to time. Any changes will be notified through an app update.</p>
+                
+                <h3>8. Contact</h3>
+                <p>If you have questions about this privacy policy, please contact us at <a href="mailto:klas0holmgren@gmail.com">klas0holmgren@gmail.com</a>.</p>
+            </div>
+            
+            <!-- Swedish Version -->
+            <div id="policy-sv" class="policy-section">
+                <h2>Integritetspolicy för First Words App</h2>
+                <p><strong>Senast uppdaterad:</strong> 2026-01-30</p>
+                
+                <h3>1. Introduktion</h3>
+                <p>First Words är en flash card-app för barn som hjälper till att lära sig ord genom bilder, text och ljud. Denna integritetspolicy beskriver hur vi hanterar dina personuppgifter och vilka behörigheter appen använder.</p>
+                
+                <h3>2. Datainsamling och lagring</h3>
+                <div class="highlight">
+                    <p><strong>Viktigt:</strong> All data lagras lokalt på din enhet. Vi samlar inte in, delar inte eller skickar ingen information till externa servrar.</p>
+                </div>
+                <ul>
+                    <li><strong>Bilder:</strong> Bilderna du lägger till i appen lagras endast på din enhet i appens privata mapp.</li>
+                    <li><strong>Ljudfiler:</strong> Ljudfilerna du lägger till lagras endast på din enhet i appens privata mapp.</li>
+                    <li><strong>Kortdata:</strong> All information om dina flash cards (text, bildreferenser, ljudreferenser) lagras lokalt på din enhet.</li>
+                </ul>
+                
+                <h3>3. Behörigheter och användning</h3>
+                <p>Appen begär följande behörigheter:</p>
+                <ul>
+                    <li><strong>Kamera (CAMERA):</strong> Används för att ta foton direkt i appen för att skapa nya flash cards. Bilder tas och sparas lokalt på enheten.</li>
+                    <li><strong>Läs Media (READ_MEDIA_IMAGES):</strong> Används för att välja bilder från din enhets galleri.</li>
+                    <li><strong>Läs Media Audio (READ_MEDIA_AUDIO):</strong> Används för att välja ljudfiler från din enhet.</li>
+                    <li><strong>Spela in ljud (RECORD_AUDIO):</strong> Används för att spela in ljud direkt i appen för att skapa nya flash cards.</li>
+                    <li><strong>Internet (INTERNET):</strong> Används endast för utvecklingssyfte och är inte nödvändig för appens normala funktioner.</li>
+                </ul>
+                <div class="highlight">
+                    <p><strong>Ingen av dessa behörigheter används för att samla in, övervaka eller skicka data till tredje part.</strong></p>
+                </div>
+                
+                <h3>4. Tredjepartstjänster</h3>
+                <p>Appen använder inga tredjepartstjänster för analys, reklam eller datainsamling. All funktionalitet körs lokalt på din enhet.</p>
+                
+                <h3>5. Barns integritet</h3>
+                <p>Appen är designad för barn och deras föräldrar. All data förblir på enheten och samlas inte in. Vi rekommenderar att föräldrar övervakar sina barns användning av appen.</p>
+                
+                <h3>6. Dina rättigheter</h3>
+                <p>Eftersom all data lagras lokalt på din enhet, har du full kontroll över dina uppgifter. Du kan när som helst:</p>
+                <ul>
+                    <li>Ta bort appen för att radera all data</li>
+                    <li>Ta bort individuella kort i appen</li>
+                    <li>Begränsa appens behörigheter via dina enhetsinställningar</li>
+                </ul>
+                
+                <h3>7. Ändringar i denna policy</h3>
+                <p>Vi kan uppdatera denna integritetspolicy från tid till annan. Eventuella ändringar kommer att meddelas genom en uppdatering av appen.</p>
+                
+                <h3>8. Kontakt</h3>
+                <p>Om du har frågor om denna integritetspolicy, vänligen kontakta oss på <a href="mailto:klas0holmgren@gmail.com">klas0holmgren@gmail.com</a>.</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>First Words App - Version 1.0.1</p>
+            <p>Last updated: 2026-01-30</p>
+        </footer>
+    </div>
+    
+    <script>
+        function showLanguage(lang) {
+            // Hide all policy sections
+            document.querySelectorAll('.policy-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Remove active class from all buttons
+            document.querySelectorAll('.language-selector button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Show selected language
+            document.getElementById('policy-' + lang).classList.add('active');
+            document.getElementById('btn-' + lang).classList.add('active');
+        }
+    </script>
+</body>
+</html>
